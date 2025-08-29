@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load trained model (make sure wine_model.pkl is in same folder)
-model = pickle.load(open("wine_model.pkl", "rb"))
+model = pickle.load(open("winequality.pkl", "rb"))
 
 # Title
 st.title("🍷 Wine Quality Prediction App")
