@@ -183,7 +183,7 @@ if st.button("Predict"):
     except Exception as e:
         st.error("Prediction failed. Likely because the pickle is a pointer file or not trained.")
         st.exception(e)
-"""
+
 
 with open(APP_PATH, "w", encoding="utf-8") as f:
     f.write(dedent(code))
